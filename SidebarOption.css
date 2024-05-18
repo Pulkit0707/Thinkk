@@ -1,0 +1,23 @@
+.sidebarOption{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.sidebarOption:hover{
+    background-color: lightgreen;
+    border-radius: 30px;
+    color: blueviolet;
+    transition: color 100ms ease-out;
+}
+
+.sidebarOption > h2{
+    font-weight: 800;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.sidebarOption--active{
+    color: lightgreen;
+}
