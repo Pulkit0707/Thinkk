@@ -1,0 +1,36 @@
+.widgets{
+    flex: 0.3;
+    
+}
+
+.widgets_input{
+    display: flex;
+    align-items: center;
+    background-color: lightgreen;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.widgets_input>input{
+    border: none;
+    background-color: lightgreen;
+}
+
+.widgets_searchIcon{
+    color: grey;
+}
+
+.widgets_widgetContainer{
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: lightgray;
+    border-radius: 20px;
+}
+
+.widgets_widgetContainer>h2{
+    font-size: 18px;
+    font-weight: 800;
+}
